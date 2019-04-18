@@ -1,0 +1,28 @@
+﻿<!doctype html>
+<html>
+ 
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+ 
+<body>
+    <script src="js/script.js"></script>
+    
+    <div class="form-popup" id="myForm">
+        <form action="#" class="form-container">
+            <label for="name"><b>Год прокладки</b></label>
+            <input type="number" id="year" min="1900" max="2200" value="1900" placeholder="Год прокладки" name="year" required>
+            <label for="labelIzol"><b>Тип изоляции</b></label>
+            <select class="selectTypeIz" name="typeIz" id="selectTypeIzol" placeholder="Тип изоляции"  required>
+			</select>
+            <label for="labelPipes"><b>Вид прокладки труб</b></label>
+            <select class="selectTypePipes" name="typePipes" id="selectTypePipes" placeholder="Тип прокладки труб"  required>
+			</select>
+            <button type="button" class="btn cancel" onclick="closeForm()">Закрыть</button>
+        </form>
+    </div>
+	
+</body>
+ 
+</html>
